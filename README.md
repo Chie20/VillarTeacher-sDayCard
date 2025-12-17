@@ -8,7 +8,7 @@ This project demonstrates clean UI design, smooth animations, and simple customi
 ## 🚀 Live Demo (Running Link)
 
 👉 **View the live project here:**  
-https://chie20.github.io/<repository-name>/
+(https://chie20.github.io/VillarTeacher-sDayCard/)
 
 > Replace `<repository-name>` with your actual GitHub repository name.
 
