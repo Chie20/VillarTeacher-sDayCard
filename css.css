@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.2); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Utility Classes */
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.heart {
+  display: inline-block;
+  animation: sparkle 1.5s infinite;
+}
+
+/* Text Styling */
+.title {
+  text-align: center;
+  font-size: 3rem;
+  color: #667eea;
+  font-family: Georgia, serif;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #764ba2;
+  margin-bottom: 2rem;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.quote {
+  background: linear-gradient(to right, #f3e8ff, #e0e7ff);
+  padding: 1.5rem;
+  border-left: 4px solid #667eea;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.signature {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #764ba2;
+}
+
+.signature span {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+/* Background Decorations */
+#backgroundContainer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.deco-1 {
+  background: radial-gradient(circle, #667eea 0%, transparent 70%);
+}
+
+.deco-2 {
+  background: radial-gradient(circle, #764ba2 0%, transparent 70%);
+}
